@@ -8,17 +8,17 @@
 // Використайте цикл for для перебору елементів масиву.
 // Нумерація елементів повинна починатися з 1 (а не з 0).
 
-const styles = ["jazz", "blues"];
+// const styles = ["jazz", "blues"];
 
-styles.push("rock-n-roll");
+// styles.push("rock-n-roll");
 
-const index = styles.indexOf("blues");
-if (index !== -1) {
-  styles[index] = "classic";
-}
-function logItems(array) {}
+// const index = styles.indexOf("blues");
+// if (index !== -1) {
+//   styles[index] = "classic";
+// }
+// function logItems(array) {}
 
-console.log(styles);
+// console.log(styles);
 
 // Напишіть функцію checkLogin(array), яка:
 // Приймає масив логінів як аргумент.
@@ -34,12 +34,11 @@ console.log(styles);
 // аргументів і повертає їхнє середнє значення.
 // Додайте перевірку, що аргументи - це числа.
 
-function caclculateAverage() {
-  let sum = 0;
-  let avg = 0;
+// function caclculateAverage() {
+//   let sum = 0;
+//   let avg = 0;
 
-  for (let index = 0; index < arguments.length; index++) {}
-}
+//   for (let index = 0; index < arguments.length; index++) {}
 
 // Напишіть функцію, яка сумуватиме сусідні числа
 // і пушитиме їх в новий масив.
@@ -50,18 +49,18 @@ function caclculateAverage() {
 // третє - з четвертим і так до кінця.
 // В результаті функція має повертати масив [33, 45, 39, 17, 25, 27, 29].
 
-function sumAdjacentNumbers(arr) {
-  const result = [];
+// function sumAdjacentNumbers(arr) {
+//   const result = [];
 
-  for (let i = 0; i < arr.length - 1; i++) {
-    result.push(arr[i] + arr[i + 1]);
-  }
+//   for (let i = 0; i < arr.length - 1; i++) {
+//     result.push(arr[i] + arr[i + 1]);
+//   }
 
-  return result;
-}
+//   return result;
+// }
 
-const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
-console.log(sumAdjacentNumbers(someArr));
+// const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+// console.log(sumAdjacentNumbers(someArr));
 
 // Напишіть функцію findSmallestNumber(numbers),
 // яка шукає найменше число в масиві.
@@ -78,15 +77,15 @@ console.log(sumAdjacentNumbers(someArr));
 // Скористайтесь цим прикладом виклику функції для перевірки її роботи:
 // console.log(findLongestWord("London is the capital of Great Britain")); // 'capital'
 
-function findLongestWord(string) {
-  let longestWord = "";
-  const words = string.split(" ");
-  for (let i = 0; i < words.length; i++) {
-    if (words[i].length > longestWord.length) {
-      longestWord = words[i];
-    }
-  }
-  return longestWord;
-}
+// function findLongestWord(string) {
+//   let longestWord = "";
+//   const words = string.split(" ");
+//   for (let i = 0; i < words.length; i++) {
+//     if (words[i].length > longestWord.length) {
+//       longestWord = words[i];
+//     }
+//   }
+//   return longestWord;
+// }
 
-console.log(findLongestWord("London is the capital of Great Britain"));
+// console.log(findLongestWord("London is the capital of Great Britain"));

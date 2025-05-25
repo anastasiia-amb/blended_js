@@ -14,20 +14,20 @@
 // "10 входить в першу чверть"
 
 // const min = Math.floor(Math.random() * (59 - 0) + 0);
-function clock() {
-  const min = Math.floor(Math.random() * (59 - 0) + 0);
+// function clock() {
+//   const min = Math.floor(Math.random() * (59 - 0) + 0);
 
-  if (min <= 15) {
-    return `${min} входить в першу чверть`;
-  } else if (min > 15 && min <= 30) {
-    return `${min} входить в другу чверть`;
-  } else if (min > 30 && min <= 45) {
-    return `${min} входить в третю чверть`;
-  } else {
-    return `${min} входить в четверту чверть`;
-  }
-}
-alert(clock());
+//   if (min <= 15) {
+//     return `${min} входить в першу чверть`;
+//   } else if (min > 15 && min <= 30) {
+//     return `${min} входить в другу чверть`;
+//   } else if (min > 30 && min <= 45) {
+//     return `${min} входить в третю чверть`;
+//   } else {
+//     return `${min} входить в четверту чверть`;
+//   }
+// }
+// alert(clock());
 
 // Змінна num може набувати 4 значення: '1', '2', '3' або '4'
 // (запитуй це значення у користувача через prompt).
@@ -39,33 +39,32 @@ alert(clock());
 // "Вибачте, але ви маєте ввести значення від 1 до 4 включно".
 // Значення змінної result виведіть в консоль.
 
-function num(number) {
-  switch (number) {
-    case "1":
-      return `зима`;
-      break;
-    case "2":
-      return `весна`;
-      break;
-    case "3":
-      return `літо`;
-      break;
-    case "4":
-      return `осінь`;
-      break;
+// function num(number) {
+//   switch (number) {
+//     case "1":
+//       return `зима`;
+//       break;
+//     case "2":
+//       return `весна`;
+//       break;
+//     case "3":
+//       return `літо`;
+//       break;
+//     case "4":
+//       return `осінь`;
+//       break;
 
-    default:
-      return `Вибачте, але ви маєте ввести значення від 1 до 4 включно`;
-  }
-}
+//     default:
+//       return `Вибачте, але ви маєте ввести значення від 1 до 4 включно`;
+//   }
+
 // Отримуйте від користувача число (кількість хвилин) через prompt
 // і виводьте у консоль рядок у форматі годин та хвилин.
 // Приклад: користувач вводить в prompt '70' -> в консолі відобразиться '01:10'.
 // Корисне посилання для відображення годин та хвилин у потрібному форматі ('01' замість '1'):
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart#examples
 
-function hours(num) {
-  const hours = String(Math.floor(num / 60)).padStart(2, "0");
-  const minutes = String(Math.floor(num % 60)).padStart(2, "0");
-  return `$(hours):$(minutes)`;
-}
+// function hours(num) {
+//   const hours = String(Math.floor(num / 60)).padStart(2, "0");
+//   const minutes = String(Math.floor(num % 60)).padStart(2, "0");
+//   return `$(hours):$(minutes)`;
